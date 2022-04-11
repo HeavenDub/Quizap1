@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="0sp"
+        android:background="#EDD60B"
+        android:backgroundTint="#0A372700"
+
+        >
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:background="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="Exit"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"
+
+
+            />
+
+    </RelativeLayout>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_height="40sp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/progressbar"
+        android:max="20"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="#D108CE"
+
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20sp"
+        app:cardCornerRadius="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="130sp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardquest"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="Hello"
+
+
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:onClick="option1Click"
+        android:layout_marginTop="20sp"
+        app:cardCornerRadius="10sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/card1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardopt1"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="A"
+
+
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:onClick="option2Click"
+        android:layout_marginTop="20sp"
+        app:cardCornerRadius="10sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/card2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardopt2"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="B"
+
+
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:onClick="option3Click"
+        android:layout_marginTop="20sp"
+        app:cardCornerRadius="10sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/card3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardopt3"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="C"
+
+
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:onClick="option4Click"
+        android:layout_marginTop="20sp"
+        app:cardCornerRadius="10sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/card4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardopt4"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="D"
+
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/nextbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/btn1_shape"
+        android:layout_marginStart="80sp"
+        android:layout_marginEnd="80sp"
+        android:layout_marginRight="80sp"
+        android:layout_marginLeft="80sp"
+        android:gravity="center"
+
+        
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Next"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

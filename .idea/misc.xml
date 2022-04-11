@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/account.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/background.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/btn1_shape.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/edited.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/emptybac.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/ic_back.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/ic_timer.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/passic.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/sharebtn.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/timeoutbtn.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/drawable/underline.xml" value="0.1335" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/layout/activity_password_reset.xml" value="0.18" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/layout/activity_won_game.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Quizap/app/src/main/res/layout/timeout_dialog.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

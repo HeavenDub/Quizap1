@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WonGame"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="0sp"
+        android:background="#EDD60B"
+        android:backgroundTint="#0A372700"
+
+        >
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:background="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="Exit"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"
+
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp" >
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularprogress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cpb_background_progressbar_color="@color/wrong"
+            app:cpb_background_progressbar_width="18sp"
+            app:cpb_progress_direction="to_right"
+            app:cpb_progress_max="10"
+            app:cpb_progressbar_color="@color/right"
+            app:cpb_progressbar_width="10sp"
+            app:cpb_round_border="false"
+
+
+            />
+
+        <TextView
+            android:id="@+id/resulttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_below="@+id/rl2"
+        android:layout_marginTop="20sp"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/sharebtn"
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="30sp"
+            android:layout_marginEnd="40sp"
+
+            android:background="@drawable/sharebtn">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5sp"
+                android:text="Share Score with your Friends"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+
+
+                />
+
+
+        </LinearLayout>
+        
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="330sp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/winning" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
